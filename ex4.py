@@ -1,5 +1,8 @@
+# initialize cars variable to the value 100
 cars = 100
-space_in_a_car = 4.0
+# similarly initializing all the following variables to the values specified
+# NOTE: no var keyword required
+space_in_a_car = 4
 drivers = 30
 passengers = 90
 cars_not_driven = cars - drivers
@@ -7,11 +10,11 @@ cars_driven = drivers
 carpool_capacity = cars_driven * space_in_a_car
 average_passengers_per_car = passengers / cars_driven
 
+# print to terminal string , variable and string again separated by spaces
+# NOTE: the strings are separated by commas in code and spaces in the output
 print "There are", cars, "cars available."
 print "There are only", drivers, "drivers available."
 print "There will be", cars_not_driven, "empty cars today."
-# the following line leads to a NameError: name 'car_pool_capacity' is not defined
-print "We can transport", car_pool_capacity, "people today."
-#                            ^ remove the underscore; "fault"
+print "We can transport", carpool_capacity, "people today."
 print "We have", passengers, "to carpool today."
 print "We need to put about", average_passengers_per_car, "in each car."
