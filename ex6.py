@@ -12,8 +12,8 @@ print x
 # print the joke punchline
 print y
 
-# repeat the joke setup
-print "I said: %r." % x
+# repeat the joke setup; more format chars then arguments provided
+print "I said: %r %d." % x
 # repeat the joke punchline
 print "I also said: '%s'." % y
 
