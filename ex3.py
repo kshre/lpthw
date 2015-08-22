@@ -10,7 +10,7 @@ print "Roosters", 100 - 25 * 3 % 4
 print "Now I will count the eggs:"
 
 # Print to terminal the result of the evaluation of the expression
-print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+print 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4.0 + 6
 
 # Print the string to terminal
 print "Is it true that 3 + 2 < 5 - 7?"
