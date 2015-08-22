@@ -9,4 +9,3 @@ print "character: %c" % c
 a_string = "he110 dere"
 print "embedding strings: %s" % a_string
 print "embedding string representations: %r" % a_string
-
