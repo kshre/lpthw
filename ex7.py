@@ -1,14 +1,14 @@
 # print string
 print "Mary had a little lamb."
-# print format string and embedded string supplied
+# print format string, embedding supplied
 print "Its fleece was white as %s." % "snow"
 # print string
-print "And everywhere that mary went."
+print "And everywhere that Mary went."
 # print ten dots
 print "." * 10 # what'd that do?
 
 # variables initialized to strings containing single characters
-#CheeseBurger
+# CheeseBurger
 end1 = "C"
 end2 = "h"
 end3 = "e"
