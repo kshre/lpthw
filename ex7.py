@@ -1,7 +1,7 @@
 # print string
 print "Mary had a little lamb."
 # print format string, embedding supplied
-print "Its fleece was white as %s." % "snow"
+print "Its fleece was white as %s." % 'snow'
 # print string
 print "And everywhere that Mary went."
 # print ten dots
@@ -30,3 +30,7 @@ print end7 + end8 + end9 + end10 + end11 + end12
 # comma @ the end suppresses newline
 print end1 + end2 + end3 + end4 + end5 + end6, 
 print end7 + end8 + end9 + end10 + end11 + end12
+
+# Bad style in Python is more than 80 chars on a single line
+print end1 + end2 + end3 + end4 + end5 + end6 + end7 + end8 + end9 + end10 + end11 + end12
+
