@@ -18,3 +18,11 @@ print fat_cat
 print "I'm 5'11\" tall."
 # escaping single-quote in a string
 print 'I\'m 5\'11" tall.'
+
+'''
+triple-single-quote are doing something here.
+What thing you ask?
+Multiline commenting appears to be the answer.
+'''
+
+
