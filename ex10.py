@@ -25,4 +25,15 @@ What thing you ask?
 Multiline commenting appears to be the answer.
 '''
 
+"""
+triple-double-quote are also working similarly
+1. multi-line commenting
+2. multi-line strings that can be assigned to variables
+"""
+
+does_this_work = '''\nhello
+hello again 
+again
+'''
+print does_this_work
 
